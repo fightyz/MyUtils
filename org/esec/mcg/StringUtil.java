@@ -4,8 +4,9 @@ import java.util.Map;
 
 /**
  * Created by yz on 2015/10/8.
+ * 以String或String数组为操作对象的工具类
  */
-public class StringUtil {
+public final class StringUtil {
 
     /**
      * hex string to a byte array

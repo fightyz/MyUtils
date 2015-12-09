@@ -1,5 +1,8 @@
-// package org.esec.mcg.utils;
+package org.esec.mcg.utils;
 
+/**
+ * 以Byte或Byte数组为操作对象的工具类
+ */
 public final class ByteUtil {
     /**
      * Convert a byte array to hex string

@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 /**
  * Created by yz on 2015/9/10.
  */
-public class SystemUtil {
+public final class SystemUtil {
 
     public static StackTraceElement getStackTrace() {
         return Thread.currentThread().getStackTrace()[4];
