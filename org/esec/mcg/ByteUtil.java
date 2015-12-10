@@ -5,7 +5,7 @@ package org.esec.mcg.utils;
  */
 public final class ByteUtil {
     /**
-     * Convert a byte array to hex string
+     * Convert a byte array to hex string with blank
      * {0x00, 0x01, (byte)0xff}	-> "00 01 ff"
      */
     public static String ByteArrayToHexString(byte[] data) {
